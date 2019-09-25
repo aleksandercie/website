@@ -446,6 +446,43 @@ section{
     }
     
 }
+@media(max-height: 450px){
+    header {
+        ul{
+            li{
+                a{
+                    padding: 5px 0
+                }
+            }
+        }
+    }
+    .home{
+        padding: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-image: url("../images/1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        background-attachment: fixed;
+        z-index: 9;
+    
+    .name{
+        margin-top: 40px;
 
+        h1{
+            font-size: 32px;
+        }
+        h5{
+            font-size: 14px;
+
+        }
+    }
+
+    }
+}
 
 
