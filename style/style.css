@@ -121,6 +121,7 @@ section {
   margin-bottom: 0;
   visibility: hidden;
   background-color: transparent;
+  background-image: none;
 }
 
 .home h5 {
@@ -133,6 +134,7 @@ section {
   border-radius: 2px;
   visibility: hidden;
   background-color: transparent;
+  background-image: none;
 }
 
 .section-title {
