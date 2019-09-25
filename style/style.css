@@ -474,29 +474,12 @@ section {
   }
 }
 
-@media (max-height: 450px) {
+@media (max-height: 500px) {
   header ul li a {
     padding: 5px 0;
   }
   .home {
-    padding: 0;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    background-image: url("../images/1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    background-attachment: fixed;
-    z-index: 9;
+    background-position: bottom;
   }
   .home .name {
     margin-top: 40px;
