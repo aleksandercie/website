@@ -446,7 +446,7 @@ section{
     }
     
 }
-@media(max-height: 450px){
+@media(max-height: 500px){
     header {
         ul{
             li{
@@ -457,18 +457,8 @@ section{
         }
     }
     .home{
-        padding: 0;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        background-image: url("../images/1.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        color: #fff;
-        background-attachment: fixed;
-        z-index: 9;
+
+        background-position: bottom;
     
     .name{
         margin-top: 40px;
