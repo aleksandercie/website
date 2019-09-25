@@ -107,7 +107,7 @@ section {
           align-items: flex-end;
   background-image: url("../images/1.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   color: #fff;
   background-attachment: fixed;
@@ -335,6 +335,9 @@ section {
   }
   header ul li a {
     padding: 10px 0;
+  }
+  .home {
+    background-attachment: scroll;
   }
   .about {
     height: 800px;
